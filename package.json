@@ -1,0 +1,31 @@
+{
+  "name": "api-node",
+  "version": "1.0.0",
+  "description": "A node api with tests using jest and typeorm",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev ./src/index.ts",
+    "test": "set NODE_ENV=test && jest",
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+  },
+  "keywords": [],
+  "author": "Isaac David",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^28.1.6",
+    "@types/uuid": "^8.3.4",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "reflect-metadata": "^0.1.13",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.0.10",
+    "typeorm": "^0.2.38",
+    "uuid": "^8.3.2"
+  }
+}
